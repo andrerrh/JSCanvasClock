@@ -1,0 +1,42 @@
+* {
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+    overflow-y: hidden;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-stop-btn {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
+    color: white;
+    transition: 0.2s
+}
+
+.start-stop-btn:hover {
+    background-color: white;
+    color: #2d2d2d;
+}
+
+.start-stop-btn:active {
+    transition: 0s;
+    background-color: #868686
+}
